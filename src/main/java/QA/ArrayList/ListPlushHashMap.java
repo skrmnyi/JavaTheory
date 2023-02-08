@@ -16,3 +16,4 @@ public class ListPlushHashMap {
     System.out.println("Key of HashMap equals to index of List\n" + books2);
   }
 }
+

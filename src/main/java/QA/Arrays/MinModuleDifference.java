@@ -22,3 +22,4 @@ public class MinModuleDifference {
     test.calculateMin(new int[] {5, 11, 7, 20});
   }
 }
+
