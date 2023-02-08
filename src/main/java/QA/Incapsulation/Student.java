@@ -41,7 +41,9 @@ public class Student {
   }
 
   public void setCourse(int course) {
-    if (course >= 1 && course <= 4) this.course = course;
+    if (course >= 1 && course <= 4) {
+      this.course = course;
+    }
   }
 
   public void showInfo() {
