@@ -13,8 +13,7 @@ public class MinModuleDifference {
         }
       }
     }
-    System.out.println("The smallest difference value\n" +
-        "and modulo number is " + min);
+    System.out.println("The smallest difference value\n"+"and modulo number is " + min);
   }
   public static void main(String[] args) {
     MinModuleDifference test = new MinModuleDifference();
