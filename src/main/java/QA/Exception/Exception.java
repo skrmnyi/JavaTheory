@@ -25,7 +25,7 @@ public class Exception {
       int deviderValue = userInput.nextInt();
       test.devider(new int[] {10, 8, 4, -1, 999, -200, 0}, deviderValue);
     } catch (InputMismatchException exception) {
-      System.out.println("Input value wasn't provided");
+      System.out.println("Input value wasn't provided or was provided in wrong format");
     }
   }
 }
