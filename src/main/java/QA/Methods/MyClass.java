@@ -1,15 +1,14 @@
 package QA.Methods;
 
 public class MyClass {
+  int year = 2023;
 
-    int year = 2023;
+  public static int sumOfTwoNumbers(int a, int b) {
+    int c = a + b;
+    return c;
+  }
 
-    public static int sumOfTwoNumbers(int a, int b) {
-        int c = a + b;
-        return c;
-    }
-
-    public static void main(String[] args) {
-        sumOfTwoNumbers(1, 2);
-    }
+  public static void main(String[] args) {
+    sumOfTwoNumbers(1, 2);
+  }
 }
